@@ -1,0 +1,250 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 18px;
+    font-family: Public Sans;
+    font-weight: 400;
+}
+li{
+    list-style-type: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.logo-container{
+    margin: 30px;
+}
+.logo-container {
+    margin-top: 35px;
+}
+ul{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.nav-home{
+    margin-left: 50px;
+}
+.nav-home:hover{
+    border-bottom: 3px solid hsl(136, 65%, 51%);
+    transition: 0.3s;
+    padding-bottom: 15px;
+}
+.nav-about{
+    margin-left: 50px;
+    
+}
+.nav-about:hover{
+    border-bottom: 3px solid hsl(136, 65%, 51%);
+    transition: 0.3s;
+    padding-bottom: 15px;
+}
+
+.nav-blog{
+    margin-left: 50px;
+}
+.nav-blog:hover{
+    border-bottom: 3px solid hsl(136, 65%, 51%);
+    transition: 0.3s;
+    padding-bottom: 15px;
+}
+.nav-contact{
+    margin-left: 50px;
+}
+.nav-contact:hover{
+    border-bottom: 3px solid hsl(136, 65%, 51%);
+    transition: 0.3s;
+    padding-bottom: 15px;
+}
+.nav-careers{
+    margin-left: 50px;
+}
+.nav-careers:hover{
+    border-bottom: 3px solid hsl(136, 65%, 51%);
+    transition: 0.3s;
+    padding-bottom: 15px;
+}
+
+.btn-container {
+    margin-top: 19px;
+    margin-right: 100px;
+}
+.nav-btn {
+    padding: 15px;
+    width: 200px;
+    border: 3px;
+    border-radius: 28px;
+    color:#fff;
+    font-size: 18px;
+    background: linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%) );
+ 
+}
+.nav-btn:hover{
+    background: linear-gradient(to right,hsl(192, 70%, 51%), hsl(136, 65%, 51%) );
+    transition: 2s;
+ 
+}
+
+.row-1{
+    display: flex;
+
+ 
+}
+.row1-msg {
+    margin-top: 210px;
+    padding-right: 97px;
+    margin-left: 118px;
+}
+.generation {
+    margin-bottom: 11px;
+
+}
+.row1-btn{
+    padding: 15px;
+    width: 200px;
+    border: 3px;
+    border-radius: 28px;
+    color:#fff;
+    font-size: 18px;
+    margin-top: 20px;
+    background: linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%) );
+
+}
+.row1-btn:hover{
+    background: linear-gradient(to right,hsl(192, 70%, 51%), hsl(136, 65%, 51%) );
+    transition: 2s;
+ 
+}
+.row1-imgcontainer {
+    margin-top: 76px;
+    background-image: url(../images/bg-intro-desktop.svg);
+    background-size: 795px 449px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    width: 51%;
+}
+.phone {
+    width: 591px;
+    height: 691px;
+    margin-left: 72px;
+    margin-top: -102px;
+}
+.row2 {
+    height: 550px;
+    background-color: hsl(0, 0%, 94%);
+    margin-top: -133px;
+  
+}
+.row2-msg {
+    padding-top: 89px;
+    margin-left: 135px;
+}
+.row2-msg2 {
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    margin-left: 135px;
+    margin-top: 85px;
+}
+.icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.row2-submsg{
+    margin-top: 20px;
+}
+.articles {
+    margin: 41px 200px;
+}
+.art-img {
+    width: 255px;
+    height: 212px;
+}
+b:hover{
+    color: hsl(136, 65%, 51%) ;
+    transition: 0.7s;
+}
+.testimo {
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    margin-left: 75px;
+}
+footer {
+
+    height: 203px;
+    background-color: hsl(233, 26%, 24%);
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    padding-top: 30px;
+    
+}
+.foot-logo {
+    width: 20%;
+    padding-top: 60px;
+    margin-left: 143px;
+}
+.flist1 {
+    display: grid;
+    color: #fff;
+    line-height: 48px;
+    
+}
+.flist-1{
+    color: #fff;
+}
+.flist-1:hover{
+    color:  hsl(136, 65%, 51%);
+    transition: 0.5s;
+}
+
+.flist2 {
+  
+    display: grid;
+    margin-right: 20px;
+    line-height: 48px;
+}
+.flist-2{
+    color: #fff;
+}
+.flist-2:hover{
+   color:  hsl(136, 65%, 51%);
+   transition: 0.5s;
+   
+}
+.flist {
+    line-height: 48px;
+    margin-top: 12px;
+    color: #fff;
+}
+.foot-btn{
+    padding: 15px;
+    width: 200px;
+    border: 3px;
+    border-radius: 28px;
+    color:#fff;
+    margin: 23px;
+    font-size: 18px;
+    background: linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%) );
+ 
+}
+.foot-btn:hover{
+    transition: 2s;
+    background: linear-gradient(to right,hsl(192, 70%, 51%), hsl(136, 65%, 51%) );
+}
