@@ -38,8 +38,8 @@ ul{
     margin-top: 35px;
     margin-left: 30px;
 }
-.nav-home{
-    margin-left: 50px;
+.nav-home {
+    margin-left: 35px;
 }
 .nav-home:hover{
     border-bottom: 3px solid hsl(136, 65%, 51%);
